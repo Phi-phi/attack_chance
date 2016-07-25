@@ -12,7 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
+**.log
 # Ignore Byebug command history file.
 .byebug_history
 
@@ -45,3 +45,6 @@
 
 # ER図
 erd.pdf
+
+vendor/bundle
+app/assets/javascripts/build.js
