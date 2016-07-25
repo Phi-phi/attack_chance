@@ -13,7 +13,7 @@ class Greet extends React.Component {
 $(() => {
   console.log(document.getElementById('content'));
   ReactDOM.render(
-    <Greet name="webpack" />,
+    <Greet name="Kazuaki" />,
     document.getElementById('content')
   );
 })
