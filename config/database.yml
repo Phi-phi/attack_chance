@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: attack_chance_production
-  username: attack_chance
+  username: phi
   password: <%= ENV['ATTACK_CHANCE_DATABASE_PASSWORD'] %>

@@ -17,7 +17,31 @@
 .byebug_history
 
 #vim
-**/.*.swp
+**.swp
+**.swo
 
 #npm
 /node_modules
+
+# scm revert files
+**.orig
+
+# Mac finder artifacts
+.DS_Store
+
+# Netbeans project directory
+/nbproject/
+
+# RubyMine project files
+.idea
+
+# Textmate project files
+/*.tmproj
+
+#Environmental file
+.env
+.rbenv-gemsets
+.ruby-
+
+# ER図
+erd.pdf
