@@ -25,12 +25,17 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           plugins: ["transform-react-jsx"],
           presets: ['es2015']
         }
-      }
+      },
+      {
+        test: /.s?css$/,
+        loaders: ['style', 'css?modules'],
+      },
+
     ]
   },
 }
