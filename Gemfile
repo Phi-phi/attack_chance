@@ -42,6 +42,8 @@ gem 'grape-swagger-entity'
 gem 'grape-swagger-representable'
 gem 'grape-rails-routes'
 
+gem 'simple_enum', '~> 2.0.0' , require: 'simple_enum/mongoid'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
