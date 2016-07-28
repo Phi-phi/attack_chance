@@ -15,6 +15,22 @@ module V1
       end
     end
     resource 'games', swagger: { nested: false } do
+
+      get do
+        @games = Game.all
+        present @games, with: GamesEntity
+      end
+
+      desc "create new game"
+      params do
+        requires :name, type: String, desc: 'Game title'
+      end
+      post do
+        @game = Game.new
+        @game.name = params[:name]
+        @game.save!
+      end
+
       params do
         requires :id, type: Integer, desc: 'Game id'
       end

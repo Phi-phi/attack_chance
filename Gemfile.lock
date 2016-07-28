@@ -311,6 +311,7 @@ DEPENDENCIES
   grape
   grape-entity
   grape-rails-routes
+  grape-swagger
   grape-swagger-entity
   grape-swagger-rails
   grape-swagger-representable

@@ -39,6 +39,7 @@ gem 'grape'
 gem 'grape-swagger-rails'
 gem 'grape-entity' # リクエストやレスポンスをモデルと紐付ける
 gem 'grape-swagger-entity'
+gem 'grape-swagger'
 gem 'grape-swagger-representable'
 gem 'grape-rails-routes'
 
